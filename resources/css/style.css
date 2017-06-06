@@ -46,13 +46,13 @@ nav span {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;	
+	width: 1200px;
 }
 
 #mission {
 	background-image: url(../images/img-mission-background.jpg);
 	margin-top: 69px;
 	height: 700px;
-	width: 1200px;
 }
 
 #mission .content {
@@ -71,7 +71,6 @@ nav span {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	width: 1000px;
 }
 
 .wrapper-item img {
@@ -85,4 +84,37 @@ nav span {
 	display: block;
 	padding: 5px;
 	font-weight: bold;
+}
+
+#locations {
+	height: 500px;
+	background-image: url(../images/img-locations-background.jpg);
+
+}
+
+#locations .content {
+	display: flex;
+	align-content: space-around;
+}
+
+.location {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 300px;
+	height: 300px;
+	margin: 15px 20px;
+	background-color: black;
+	opacity: 1;
+}
+
+.contact {
+	text-align: center;
+	height: 200px;
+}
+
+footer {
+	padding-left: 20px;
+  	width: 100%;
+	text-align: left;
 }
